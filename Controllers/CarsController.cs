@@ -22,7 +22,7 @@ namespace anidam.Controllers
         }
 
         public ViewResult List() {
-            ViewBag.Title = "Pagw with automobiles";
+            ViewBag.Title = "Page with automobiles";
             CarsListViewModel obj = new CarsListViewModel();
             obj.allCars = _allCars.Cars;
             obj.currCategory = "Automobile";
